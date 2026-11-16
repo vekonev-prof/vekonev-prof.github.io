@@ -84,6 +84,8 @@ body{font-family:"Segoe UI",system-ui,sans-serif;color:#e7e9f5;background:#0b0d1
 .work{position:relative;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:26px;backdrop-filter:blur(8px);transition:transform .25s,box-shadow .25s,border-color .25s;overflow:hidden}
 .work:before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--ac)}
 .work:hover{transform:translateY(-6px);border-color:var(--ac);box-shadow:0 18px 44px var(--gl)}
+a.work{display:block;text-decoration:none;color:inherit;cursor:pointer}
+.work:hover .w-link{gap:12px}
 .w-icon{width:56px;height:56px;border-radius:16px;background:var(--acbg);display:flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:16px}
 .work h3{font-size:20px;color:#fff;margin-bottom:6px}
 .w-style{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;color:var(--ac);margin-bottom:10px}
@@ -159,46 +161,46 @@ footer a{color:#c7cbf7}
 <p>Каждый лендинг — с нуля: структура, тексты, вёрстка и интерактив. Открой демо и потыкай — всё живое.</p>
 </section>
 <div class="works">
-<div class="work card-dental">
+<a class="work card-dental" href="demo-dental/" target="_blank" rel="noopener">
 <div class="w-icon">🦷</div>
 <h3>ДенталПро — стоматология</h3>
 <div class="w-style">Booking-first · мягкие «стопки»</div>
 <p>Плавающая капсула-навигация, форма записи прямо в первом экране с выбором времени и секции-«стопки» со скруглёнными краями. Коралловый акцент на мятном.</p>
 <div class="w-tags"><span class="w-tag">Запись в hero</span><span class="w-tag">Выбор времени</span><span class="w-tag">Стопки-секции</span></div>
-<a class="w-link" href="demo-dental/index.html">Открыть демо →</a>
-</div>
-<div class="work card-barber">
+<span class="w-link">Открыть демо →</span>
+</a>
+<a class="work card-barber" href="demo-barbershop/" target="_blank" rel="noopener">
 <div class="w-icon">✂</div>
 <h3>ЦЕХ — барбершоп</h3>
 <div class="w-style">Неоновая вывеска</div>
 <p>Кирпичная стена, неоновый логотип и прайс-табло, полароиды мастеров под наклоном и бегущая строка отзывов.</p>
 <div class="w-tags"><span class="w-tag">Неон</span><span class="w-tag">Прайс-табло</span><span class="w-tag">Бегущая строка</span></div>
-<a class="w-link" href="demo-barbershop/index.html">Открыть демо →</a>
-</div>
-<div class="work card-reno">
+<span class="w-link">Открыть демо →</span>
+</a>
+<a class="work card-reno" href="demo-renovation/" target="_blank" rel="noopener">
 <div class="w-icon">🏗️</div>
 <h3>РемКапитал — ремонт квартир</h3>
 <div class="w-style">Чертёж blueprint</div>
 <p>Штамп-шапка как на листе проекта, смета-калькулятор, график работ-гант и планы квартир, нарисованные чистым CSS.</p>
 <div class="w-tags"><span class="w-tag">Калькулятор</span><span class="w-tag">График 45 дней</span><span class="w-tag">CSS-планы</span></div>
-<a class="w-link" href="demo-renovation/index.html">Открыть демо →</a>
-</div>
-<div class="work card-pizza">
+<span class="w-link">Открыть демо →</span>
+</a>
+<a class="work card-pizza" href="demo-pizza/" target="_blank" rel="noopener">
 <div class="w-icon">🍕</div>
 <h3>Сицилия — пиццерия</h3>
 <div class="w-style">Тёмный и аппетитный</div>
 <p>Меню с кнопками «в корзину»: плавающая панель сама считает позиции и сумму. Интерактив на чистом JS.</p>
 <div class="w-tags"><span class="w-tag">Рабочая корзина</span><span class="w-tag">Акции</span><span class="w-tag">Доставка</span></div>
-<a class="w-link" href="demo-pizza/index.html">Открыть демо →</a>
-</div>
-<div class="work card-school">
+<span class="w-link">Открыть демо →</span>
+</a>
+<a class="work card-school" href="demo-school/" target="_blank" rel="noopener">
 <div class="w-icon">🎓</div>
 <h3>LingvaPro — онлайн-школа</h3>
 <div class="w-style">Split-лейаут</div>
 <p>Фиксированная боковая панель с живым отсчётом до старта потока, сравнительная таблица тарифов и карусель отзывов со свайпом.</p>
 <div class="w-tags"><span class="w-tag">Таймер потока</span><span class="w-tag">Таблица тарифов</span><span class="w-tag">Свайп-карусель</span></div>
-<a class="w-link" href="demo-school/index.html">Открыть демо →</a>
-</div>
+<span class="w-link">Открыть демо →</span>
+</a>
 </div>
 <section class="sec" id="why">
 <h2>Почему мои лендинги не «просто красиво»</h2>

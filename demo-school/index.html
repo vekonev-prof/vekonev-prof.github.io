@@ -98,6 +98,13 @@ a{text-decoration:none;color:inherit}
 .q-dot{width:10px;height:10px;border-radius:50%;background:#ddd6f3;cursor:pointer;transition:background .2s}
 .q-dot.active{background:#7c3aed}
 .quote-box{touch-action:pan-y}
+.rev-grid{display:none;grid-template-columns:repeat(3,1fr);gap:20px}
+.rev-card{background:#fff;border:1px solid #ece8fb;border-radius:20px;padding:26px 24px;box-shadow:0 10px 26px rgba(76,29,149,.07);display:flex;flex-direction:column}
+.rev-card .r-stars{color:#f59e0b;font-size:15px;letter-spacing:2px;margin-bottom:10px}
+.rev-card p{font-size:15px;line-height:1.55;color:#312e81;font-style:italic;margin-bottom:14px;flex:1}
+.rev-author{font-size:13.5px;color:#6d28d9;font-weight:700}
+.rev-author span{display:block;font-weight:400;color:#8a86ad;margin-top:2px}
+@media(min-width:1081px){.rev-grid{display:grid}.quote-box{display:none}}
 .q-hint{display:none;text-align:center;font-size:12px;color:#8a86ad;margin-top:12px}
 .trial-card{max-width:640px;background:#fff;border:1px solid #ece8fb;border-radius:24px;padding:40px 44px;box-shadow:0 18px 44px rgba(76,29,149,.1)}
 .trial-card h2{font-size:30px;font-weight:800;margin-bottom:8px}
@@ -226,6 +233,11 @@ a{text-decoration:none;color:inherit}
 <div class="q-dot" data-q="2"></div>
 </div>
 <div class="q-hint">← листайте свайпом →</div>
+</div>
+<div class="rev-grid">
+<div class="rev-card"><div class="r-stars">★★★★★</div><p>«Правило «первые 5 минут занятия говоришь только по-английски» — гениально. Через 3 месяца перестал бояться созвонов с зарубежными коллегами.»</p><div class="rev-author">Максим<span>прошёл модуль M4 · Work &amp; Career</span></div></div>
+<div class="rev-card"><div class="r-stars">★★★★★</div><p>«Готовилась к IELTS с Анной: 7.5 overall, когда для школы требовалось 6.5. Пошла дальше — подавала на визу в Канаду.»</p><div class="rev-author">Светлана<span>подготовка к IELTS · тариф VIP</span></div></div>
+<div class="rev-card"><div class="r-stars">★★★★★</div><p>«Сначала стеснялась говорить в группе из 6 человек, но через месяц уже рассказывала про отпуск. Атмосфера — как в компании друзей.»</p><div class="rev-author">Оксана<span>прошла модуль M3 · Fluent Basics</span></div></div>
 </div>
 </section>
 <section class="block" id="trial" style="border-bottom:none">
